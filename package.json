@@ -1,0 +1,16 @@
+{
+  "name": "myprofile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:blog": "pnpm -F @myprofile/blog run serve",
+    "clean:blog": "pnpm -F @myprofile/blog run clean",
+    "start:blog": "pnpm -F @myprofile/blog run start",
+    "build:blog": "pnpm -F @myprofile/blog run build",
+    "dev:blog": "pnpm -F @myprofile/blog run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
