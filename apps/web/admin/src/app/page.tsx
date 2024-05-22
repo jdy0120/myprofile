@@ -15,7 +15,6 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -49,7 +48,9 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>
+            Find in-depth information about Next.js features and API.
+          </p>
         </a>
 
         <a
@@ -61,7 +62,10 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>
+            Learn about Next.js in an interactive course
+            with&nbsp;quizzes!
+          </p>
         </a>
 
         <a
@@ -86,7 +90,8 @@ export default function Home() {
             Deploy <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your Next.js site to a shareable URL with
+            Vercel.
           </p>
         </a>
       </div>
