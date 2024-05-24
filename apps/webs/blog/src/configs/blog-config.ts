@@ -3,7 +3,7 @@ const blogConfigs = {
   description:
     "안녕하세요 Doyeonism블로그입니다. Hoodie님의 테마를 적용한 Gatsby블로그입니다.",
   author: "Doyeonism",
-  siteUrl: "https://www.doyeonism.com",
+  siteUrl: "https://blog.doyeonism.com",
   links: {
     github: "https://github.com/jdy0120",
     linkedIn: "https://linkedin.com/in/doyeonism",

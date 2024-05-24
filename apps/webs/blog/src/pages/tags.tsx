@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import _ from "lodash";
+import _, { filter } from "lodash";
 import styled from "styled-components";
 import SEO from "../_components/b_mocules/SEO";
-import filter from "lodash/filter";
 
 import { graphql, navigate } from "gatsby";
 
