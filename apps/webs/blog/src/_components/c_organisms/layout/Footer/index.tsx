@@ -23,9 +23,9 @@ const Footer = () => {
     <FooterWrapper>
       © {title}, Built with Gatsby and{" "}
       <a href="https://github.com/jdy0120/myprofile" target="blank">
-        myprofile link
-      </a>
-      theme.
+        transform typescript
+      </a>{" "}
+      by doyeon
     </FooterWrapper>
   );
 };

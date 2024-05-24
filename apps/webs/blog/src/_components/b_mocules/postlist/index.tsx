@@ -78,6 +78,13 @@ const PostList = ({ postList }: PostListProps) => {
         const { excerpt } = post;
         const { slug } = post.fields;
 
+        const tagsList = tags.map((tag: string) => {
+          return {
+            fieldValue: tag,
+            totalCount: 1,
+          };
+        });
+
         return (
           <>
             <PostWrapper>
@@ -90,7 +97,7 @@ const PostList = ({ postList }: PostListProps) => {
               ) : (
                 <Excerpt>{excerpt}</Excerpt>
               )}
-              <TagList tagList={tags} />
+              <TagList tagList={tagsList} />
             </PostWrapper>
 
             {postCount - 1 !== i && postList.length - 1 !== i && (

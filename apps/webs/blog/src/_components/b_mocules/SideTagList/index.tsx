@@ -44,7 +44,7 @@ const Tag = styled.li`
 
 interface SideTagListProps {
   tags: {
-    title: string;
+    fieldValue: string;
     totalCount: number;
   }[];
   postCount: number;
@@ -61,8 +61,8 @@ const SideTagList = ({ tags, postCount }: SideTagListProps) => {
           </Tag>
           {_.map(tags, (tag) => (
             <Tag>
-              <Link to={`/tags?q=${tag.title}`}>
-                {tag.title} ({tag.totalCount})
+              <Link to={`/tags?q=${tag.fieldValue}`}>
+                {tag.fieldValue} ({tag.totalCount})
               </Link>
             </Tag>
           ))}

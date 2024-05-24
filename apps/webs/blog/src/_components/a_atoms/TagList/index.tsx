@@ -43,7 +43,7 @@ const spaceToDash = (text: string) => {
 
 interface TagListProps {
   tagList: {
-    title: string;
+    fieldValue: string;
     totalCount: number;
   }[];
   count?: boolean;
@@ -62,7 +62,7 @@ const TagList = ({ tagList, count, selected }: TagListProps) => {
             key={JSON.stringify({ tag, i })}
             to={`/tags?q=${tag}`}
           >
-            <TagLink>{spaceToDash(tag.title)}</TagLink>
+            <TagLink>{spaceToDash(tag.fieldValue)}</TagLink>
           </Link>
         ))}
       </TagListWrapper>
@@ -75,11 +75,13 @@ const TagList = ({ tagList, count, selected }: TagListProps) => {
         <Link
           key={JSON.stringify({ tag, i })}
           to={
-            selected === tag.title ? "/tags" : `/tags?q=${tag.title}`
+            selected === tag.fieldValue
+              ? "/tags"
+              : `/tags?q=${tag.fieldValue}`
           }
         >
-          <TagLink selected={tag.title === selected}>
-            {spaceToDash(tag.title)} ({tag.totalCount})
+          <TagLink selected={tag.fieldValue === selected}>
+            {spaceToDash(tag.fieldValue)} ({tag.totalCount})
           </TagLink>
         </Link>
       ))}
