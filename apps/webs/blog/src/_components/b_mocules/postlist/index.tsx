@@ -97,7 +97,7 @@ const PostList = ({ postList }: PostListProps) => {
               ) : (
                 <Excerpt>{excerpt}</Excerpt>
               )}
-              <TagList tagList={tagsList} />
+              <TagList tagList={tagsList} count={tagsList.length} />
             </PostWrapper>
 
             {postCount - 1 !== i && postList.length - 1 !== i && (
