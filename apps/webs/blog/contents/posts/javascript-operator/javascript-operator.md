@@ -1,5 +1,5 @@
 ---
-title: "1. 새로운 자바시크립트 연산자"
+title: "새로운 자바시크립트 연산자"
 description: "This new JavaScript operator is an absolute game changer."
 date: 2024-08-21
 update: 2024-08-21

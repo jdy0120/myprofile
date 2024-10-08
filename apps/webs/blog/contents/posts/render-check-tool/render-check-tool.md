@@ -1,21 +1,13 @@
-# 제목 없음
-
-생성일: 2024년 10월 4일 오후 12:12
-수정일: 2024년 10월 8일 오전 11:44
-
+---
 title: "크롬에서 컴포넌트 리렌더링을 확인하는 방법!"
 description: "**How to check which component Re-render in react js?**"
 date: 2024-09-04
 update: 2024-09-04
 tags:
-
----
-
-- react
-- components
-- re-render
-- chrome
-
+  - react
+  - components
+  - re-render
+  - chrome
 ---
 
 react 개발자에게 가장 중요한 작업은 react 애플리케이션에서 어떤 컴포넌트가 반복해서 렌더링되는지 찾는 것입니다. 이를 통해 메모리 누수 및 웹사이트 성능 문제를 방지할 수 있습니다.
